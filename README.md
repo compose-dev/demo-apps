@@ -21,7 +21,7 @@ You can run this app yourself in less than 5 minutes.
 The two key files are `src/index.ts` and `src/apps/dashboard.ts`.
 
 - `src/index.ts` initializes the Compose client and connects to the [dashboard](https://app.composehq.com).
-- `src/apps/dashboard.ts` contains all the code for the dashboard app.
+- `src/apps/dashboard.ts` contains all the code for the demo app.
 
 There's also some additional files/folders:
 
