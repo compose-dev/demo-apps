@@ -4,6 +4,8 @@ This repo contains a simple demo app that shows how easy it is to build custom i
 
 ---> [TRY IT OUT](https://app.composehq.com/app/76c437ce-2db1-4146-8712-d4417cb8e570/internal-dashboard-demo) <---
 
+**Note:** This app is designed for desktop use and may look janky on mobile devices.
+
 ![Compose Internal Dashboard Demo](./public/screenshot.png)
 
 The app is built in ~150 lines of Node.js code and can be found in `/src/apps/dashboard.ts`.
