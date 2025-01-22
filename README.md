@@ -16,3 +16,15 @@ You can run this app yourself in less than 5 minutes.
 4. Replace the API key in `/src/index.ts` with your API key
 5. Run `npm run dev`
 
+## How it works
+
+The two key files are `src/index.ts` and `src/apps/dashboard.ts`.
+
+- `src/index.ts` initializes the Compose client and connects to the [dashboard](https://app.composehq.com).
+- `src/apps/dashboard.ts` contains all the code for the dashboard app.
+
+There's also some additional files/folders:
+
+- `src/database` creates a quick in-memory database to support the demo.
+- `src/apps/router.ts` initializes a new session with the in-memory database and redirects to the dashboard.
+- `public` screenshot of the dashboard for the `README.md`
