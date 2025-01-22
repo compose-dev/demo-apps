@@ -2,6 +2,8 @@
 
 This repo contains a simple demo app that shows how easy it is to build custom internal tools with Compose.
 
+---> [TRY IT OUT](https://app.composehq.com/app/76c437ce-2db1-4146-8712-d4417cb8e570/internal-dashboard-demo)) <---
+
 ![Compose Internal Dashboard Demo](./public/screenshot.png)
 
 The app is built in ~150 lines of Node.js code and can be found in `/src/apps/dashboard.ts`.
